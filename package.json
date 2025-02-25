@@ -1,0 +1,16 @@
+{
+  "name": "my-electron-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./out/main/index.js",
+  "scripts": {
+    "start": "electron-vite preview",
+    "dev": "electron-vite dev",
+    "prebuild": "electron-vite build"
+  },
+  "author": "liuyongshun",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-vite": "^3.0.0"
+  }
+}
